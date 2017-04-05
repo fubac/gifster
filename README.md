@@ -20,7 +20,7 @@ This project relies on Gradle as build tool. For getting started, check
 out the repository and launch Gradle inside the project's root directory:
 
 ```
-$ git clone https://pk070@gitlab.mi.hdm-stuttgart.de/pk070/dev4cloud-hello-bluemix.git
+$ git clone https://{user}@gitlab.mi.hdm-stuttgart.de/pk070/dev4cloud-hello-bluemix.git
 $ cd dev4cloud-hello-bluemix/
 $ gradle build
 ```
