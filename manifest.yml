@@ -1,0 +1,5 @@
+---
+applications:
+  - name: hello-bluemix
+    buildpack: java_buildpack
+    path: build/libs/hello-bluemix-0.1.0.jar
