@@ -1,5 +1,4 @@
-
-#Hello IBM Bluemix!
+# Hello IBM Bluemix!
 
 This is a sample application built on Spring Boot which is ready for
 being deployed to *IBM Bluemix* or any other PaaS vendor running on top
