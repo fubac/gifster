@@ -37,7 +37,8 @@ $ java -jar hello-bluemix-0.1.0.jar
 ```
 
 Assumed that everything works fine, the Spring Boot sample starts 
-listening for incoming connections at *http://localhost:8080*.
+listening for incoming connections at *localhost:8080*.
+
 <br/>
 
 
