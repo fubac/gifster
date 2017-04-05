@@ -3,6 +3,7 @@
 This is a sample application built on Spring Boot which is ready for
 being deployed to *IBM Bluemix* or any other PaaS vendor running on top
 of *Cloud Foundry*.
+
 <br/>
 
 ## Requirements
@@ -22,6 +23,7 @@ $ git clone https://pk070@gitlab.mi.hdm-stuttgart.de/pk070/dev4cloud-hello-bluem
 $ cd dev4cloud-hello-bluemix/
 $ gradle build
 ```
+
 <br/>
 
 
@@ -52,6 +54,7 @@ We need that to interact with Bluemix on the command line and deploy
 our application.   
 As soon as you're done with this, we can finally devote ourselves to get
 up and running with Bluemix.
+
 <br/>
 
 
@@ -62,6 +65,7 @@ settings and make Cloud Foundry CLI point to the correct API endpoint:
 ```
 $ cf api https://api.ng.bluemix.net # point CLI to US South
 ```
+
 <br/>
 
 
@@ -75,6 +79,7 @@ Then, you can login to Bluemix with the Cloud Foundry CLI as follows:
 ```
 $ cf login -u {username} -o {organization} -s {area}
 ```
+
 <br/>
 
 
@@ -86,6 +91,8 @@ application to Bluemix:
 ```
 $ cf push -m 1024M -n {hostname} -b https://github.com/cloudfoundry/java-buildpack.git 
 ```
+
+<br/>
 
 There's a couple of important points here. First, pay attention to provide sufficient memory
 to your application. In this case, I chose 1GB, since the JVM allocated about 600MB on startup
