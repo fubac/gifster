@@ -73,12 +73,12 @@ $ cf api https://api.ng.bluemix.net # point CLI to US South
 ### 2) Login to your Bluemix account
 Now we need to use the previously installed Cloud Foundry CLI in order to login
 to our Bluemix account. For that to work, make sure you created at least
-one single personal organization as well as an area to place your application in. You can do
+one single personal organization as well as at least one space to place your application in. You can do
 this by means of the Bluemix Dashboard.
 Then, you can login to Bluemix with the Cloud Foundry CLI as follows:
 
 ```
-$ cf login -u {username} -o {organization} -s {area}
+$ cf login -u {username} -o {organization} -s {space}
 ```
 
 <br/>
