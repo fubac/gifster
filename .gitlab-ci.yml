@@ -1,0 +1,10 @@
+image: gradle:latest
+
+before_script:
+   - chmod +x gradlew
+
+build:
+   stage: test
+   script:
+      - ./gradlew test
+   allow_failure: false
