@@ -1,5 +1,5 @@
 ---
 applications:
-  - name: hello-bluemix
+  - name: gifster
     buildpack: java_buildpack
-    path: build/libs/hello-bluemix-0.1.0.jar
+    path: build/libs/gifster-0.1.0.jar

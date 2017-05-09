@@ -1,6 +1,6 @@
-# Hello IBM Bluemix!
+# Howdy, this is _Gifster_!
 
-This is a sample application built on Spring Boot which is ready for
+_Gifster_ is a sample application built on Spring Boot which is ready for
 being deployed to *IBM Bluemix* or any other PaaS vendor running on top
 of *Cloud Foundry*.
 
@@ -20,8 +20,8 @@ This project relies on Gradle as build tool. For getting started, check
 out the repository and launch Gradle inside the project's root directory:
 
 ```
-$ git clone https://{user}@gitlab.mi.hdm-stuttgart.de/pk070/dev4cloud-hello-bluemix.git
-$ cd dev4cloud-hello-bluemix/
+$ git clone https://github.com/dev4cloud/gifster.git
+$ cd gifster/
 $ gradle build
 ```
 
@@ -36,7 +36,7 @@ the following commands:
 
 ```
 $ cd build/libs/
-$ java -jar hello-bluemix-0.1.0.jar
+$ java -jar gifster-0.1.0.jar
 ```
 
 Assumed that everything works fine, the Spring Boot sample starts 
