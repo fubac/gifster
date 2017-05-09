@@ -1,5 +1,7 @@
 # Howdy, this is _Gifster_!
 
+![Travis CI status](https://travis-ci.org/dev4cloud/gifster.svg?branch=master)
+
 _Gifster_ is a sample application built on Spring Boot which is ready for
 being deployed to *IBM Bluemix* or any other PaaS vendor running on top
 of *Cloud Foundry*.
