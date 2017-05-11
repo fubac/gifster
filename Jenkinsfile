@@ -9,5 +9,9 @@ stage('Build'){
     junit '**/test-results/**/*.xml'
   }
 
+  stage('DockerImage'){
+    def newApp = docker.build "gifster:${env.BUILD_TAG}"
+  }
+
 
 }
